@@ -30,10 +30,10 @@ document.addEventListener("DOMContentLoaded", function() {
         // For this example, let's assume a simple hardcoded authentication check:
         if (userType === "student" && username === "123" && password === "123") {
           // Student login successful, redirect or show a success message
-          window.location.href = "https://ahmedhossam911.github.io/BIS-Student-Page/";
+          window.location.href = "https://youssefmostafa911.github.io/Student-Page/";
         } else if (userType === "management" && username === "123" && password === "123") {
           // Management login successful, redirect or show a success message
-          window.location.href = "https://ahmedhossam911.github.io/BIS_Management_Page/";
+          window.location.href = "https://youssefmostafa911.github.io/Management-Page/";
         } else {
           showError(errorElement, "Invalid username or password type 123 for both ");
         }
